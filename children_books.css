@@ -9,12 +9,8 @@ img{
 .title_card{
     background-color:white;
     width: 100%;
-    display:flex;    
-    margin-top:auto;
-    margin-bottom: auto;
-
+    
 }
-
 #navigation_bar{
     display: flex;
     flex-direction: row;
@@ -34,9 +30,8 @@ img{
     cursor: pointer;
     font-size: 20px;
     color: black;
-    font-family: 'Alegreya Sans SC'
+    font-family: "Alegreya Sans SC";
 }
-
 
 .dropbtn {
     background-color: black;
@@ -102,17 +97,12 @@ img{
     display: flex;
     justify-content: center;
 }
-  
 
 .menu:hover {
     background-color: black;
     color: white;
     transition: background-color 0.5s;
     transition: color 0.5;
-}
-
-.menu:active{
-    opacity: 0.5;
 }
 
 #basic_layout{
@@ -129,9 +119,6 @@ img{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-
 .title_container{
     background-color: transparent;
     border: 3px solid black;
@@ -142,9 +129,6 @@ img{
     margin-top: 10px;
     margin-bottom: 30px;
     padding-top: 35px;
-    font-family: 'Alegreya Sans SC';
-    text-decoration: none;
-    letter-spacing: 4px;
 }
 
 
@@ -160,85 +144,78 @@ img{
     .menu {
       display: none;
     }
-    
     .book_container{
-      margin-left: auto;
-      margin-right: auto;
-    }
+      margin: 0 auto 0 auto
   }
-
-.children_books{
+}
+#adventure_books{
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
+    justify-content: space-between;
     height:60%;
     width:80%;
-    margin-bottom: 0px;
+    border-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style:none;
     border-color:black;
     background-color: transparent;
-    padding: 15px 10px 10px 10px;
-    margin: auto;
+    padding: 15px 10px 50px 10px;
+
 }
 
-.commentary_books{
-  display:flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  height:60%;
-  width:80%;
-  margin-bottom: 0px;
-  border-color:black;
-  background-color: transparent;
-  padding: 15px 10px 10px 10px;
-  margin: auto;
-} 
+#cb_title{
+    font-family: 'Alegreya Sans SC';
+    text-decoration: none;
+    letter-spacing: 4px;
+}
 
-.title{
-    text-align: center;
+.subcat_title{
+    font-family: 'Alegreya Sans SC';
+    text-decoration: none;
+    letter-spacing: 4px;
 }
 
 .book_info{
-  text-align: center;
-  line-height: 25px;
-  margin-bottom: 20px;
+    text-align: center;
+    line-height: 25px;
 }
 
 .book_title{
-  border-bottom-style: solid;
+    border-bottom-style: solid;
 }
 
 .book_author{
-  font-family: 'Alegreya Sans';
+    font-family: 'Alegreya Sans';
 }
 
 .book_price{
-  font-family: 'Alegreya Sans';
+    font-family: 'Alegreya Sans';
 }
 
+
 .buy_button{
-  padding: 0 15px 0 15px;
-  height: 30px;
-  letter-spacing: 2px;
-  font-family: 'Alegreya Sans SC';
-  background-color: black;
-  color: white;
+    padding: 0 15px 0 15px;
+    height: 30px;
+    letter-spacing: 2px;
+    font-family: 'Alegreya Sans SC';
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
 }
 
 .buy_button:hover{
-  background-color: white;
-  color: black;
-  transition: background-color 0.2s;
+    background-color: white;
+    color: black;
+    transition: background-color 0.2s;
 }
 
 .book_cover{
-  height:300px;
-  width: 200px;
-  border-style: solid;
-  border-color: black;
+    height:300px;
+    width: 200px;
+    border-style: solid;
+    border-color: black;
 }
 
 
@@ -246,19 +223,43 @@ img{
     text-align: center;
 }
 
-.title_link{
-  text-decoration: none;
-}
-
-.title_link:visited{
-  text-decoration: none;
-  color:black;
-}
-
 #commentary_title{
     text-align: center;
 }
 
+#fantasy_books{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-style:solid;
+    border-color: black;
+    height:70%;
+    width:80%;
+    background-color:transparent;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style:none;
+    padding: 15px 10px 50px 10px;   
+    margin-bottom: 20px;
+}
+
+#science_books{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-style:solid;
+    border-color: black;
+    height:70%;
+    width:80%;
+    background-color:transparent;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    padding: 15px 10px 50px 10px;   
+    margin-bottom: 20px;
+}
 
 *{
 	margin:0;
@@ -312,10 +313,6 @@ ul{
 	width: 50px;
 }
 
-.footer-col a{
-  text-decoration: none;
-}
-
 .footer-col ul li:not(:last-child){
 	margin-bottom: 10px;
 }
@@ -337,7 +334,27 @@ ul{
 	padding-left: 8px;
 }
 
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
 
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+.footer-col a{
+    text-decoration: none;
+  }
 
 .copyright{
   color: grey;
