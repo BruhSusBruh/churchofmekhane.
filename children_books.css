@@ -251,14 +251,14 @@ img{
     justify-content: space-between;
     border-style:solid;
     border-color: black;
-    height:70%;
+    height: 70%;
     width:80%;
     background-color:transparent;
     border-left-style: none;
     border-right-style: none;
     border-bottom-style: none;
     padding: 15px 10px 50px 10px;   
-    margin-bottom: 20px;
+    margin-bottom: 350px;
 }
 
 *{
@@ -353,8 +353,8 @@ ul{
 }
 
 .footer-col a{
-    text-decoration: none;
-  }
+  text-decoration: none;
+}
 
 .copyright{
   color: grey;
